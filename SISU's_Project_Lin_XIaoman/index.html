@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>林小满 · 上外新生向导</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 顶部菜单栏 -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="#home">
+        <span class="brand-badge">林</span>
+        <span class="brand-name">林小满</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active" data-nav="home">首页</a>
+          <a href="campus.html" class="nav-link" data-nav="campus">校园信息</a>
+        <a href="chat.html" class="nav-link" data-nav="chat">和学姐聊聊</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="打开菜单">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- 首页：产品展示 -->
+    <section class="hero section" id="home">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="hero-eyebrow">SHISU · 上外新生指南</p>
+          <h1>嗨，我是<span class="accent">林小满</span></h1>
+          <p class="hero-subtitle">你的上外学姐，也是 24 小时在线的校园答疑小助手。</p>
+          <p class="hero-desc">
+            刚进上外有点迷茫？选课、食堂、社团、图书馆、校园网、周边生活……<br>
+            都可以来问我。我会用学姐的视角，给你靠谱又暖心的答案。
+          </p>
+          <div class="hero-actions">
+            <a href="chat.html" class="btn btn-primary">和学姐聊聊</a>
+            <a href="#about" class="btn btn-ghost">了解林小满</a>
+          </div>
+          <ul class="hero-points">
+            <li>✅ 新生常见问题</li>
+            <li>✅ 校园生活攻略</li>
+            <li>✅ 温柔学姐人设</li>
+          </ul>
+        </div>
+        <div class="hero-portrait">
+          <div class="portrait-frame hero-carousel">
+            
+            
+            <img class="carousel-img active" src="images/carousel/1.jpg"
+                 alt="林小满 · 温暖微笑"
+                 onerror="this.onerror=null;this.src='file:///D:/Desktop/作业/大学/火山杯智能体/写实风人物形象/微信图片_20260825175315_225_126.jpg';this.onerror=function(){this.style.display='none'}">
+                <img class="carousel-img" src="images/carousel/2.jpg" alt="林小满 · 咖啡时光" onerror="this.onerror=null;this.src='file:///D:/Desktop/作业/大学/火山杯智能体/写实风人物形象/微信图片_20260825175318_226_126.jpg';this.onerror=function(){this.style.display='none'}">
+                <img class="carousel-img" src="images/carousel/3.jpg" alt="林小满 · 校园黄昏" onerror="this.onerror=null;this.src='file:///D:/Desktop/作业/大学/火山杯智能体/写实风人物形象/微信图片_20260825175318_227_126.jpg';this.onerror=function(){this.style.display='none'}">
+                <img class="carousel-img" src="images/carousel/4.jpg" alt="林小满 · 阳光日常" onerror="this.onerror=null;this.src='file:///D:/Desktop/作业/大学/火山杯智能体/写实风人物形象/微信图片_20260825175319_228_126.jpg';this.onerror=function(){this.style.display='none'}">
+                <img class="carousel-img" src="images/carousel/5.jpg" alt="林小满 · 城市漫步" onerror="this.onerror=null;this.src='file:///D:/Desktop/作业/大学/火山杯智能体/写实风人物形象/微信图片_20260825175650_229_126.jpg';this.onerror=function(){this.style.display='none'}">
+                <img class="carousel-img" src="images/carousel/6.jpg" alt="林小满 · 烟火气" onerror="this.onerror=null;this.src='file:///D:/Desktop/作业/大学/火山杯智能体/写实风人物形象/微信图片_20260825175651_230_126.jpg';this.onerror=function(){this.style.display='none'}">
+                <img class="carousel-img" src="images/carousel/7.jpg" alt="林小满 · 街角一瞥" onerror="this.onerror=null;this.src='file:///D:/Desktop/作业/大学/火山杯智能体/写实风人物形象/微信图片_20260825175652_231_126.jpg';this.onerror=function(){this.style.display='none'}">
+                <button class="carousel-btn carousel-prev" id="carouselPrev" type="button" aria-label="上一张">&#8249;</button>
+                <button class="carousel-btn carousel-next" id="carouselNext" type="button" aria-label="下一张">&#8250;</button>
+                <div class="carousel-dots" id="carouselDots"></div>
+            <span class="portrait-card">学姐 · 林小满</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 设计初衷 -->
+    <section class="purpose section" id="purpose">
+      <div class="container">
+        <div class="section-head">
+          <h2>我们为什么做林小满？</h2>
+          <p>从“新生焦虑”和“信息差”出发，想给每一位上外新生一个随时能问的学姐。</p>
+        </div>
+        <div class="purpose-grid">
+          <article class="purpose-card">
+            <span class="purpose-num">01</span>
+            <h3>新生焦虑</h3>
+            <p>刚到陌生环境，面对选课、报到、宿舍、社团、出行等问题，容易迷茫和不安。</p>
+          </article>
+          <article class="purpose-card">
+            <span class="purpose-num">02</span>
+            <h3>信息差</h3>
+            <p>很多经验只存在于学长学姐口中，网络上信息分散，新生很难快速找到靠谱答案。</p>
+          </article>
+          <article class="purpose-card">
+            <span class="purpose-num">03</span>
+            <h3>温柔陪伴</h3>
+            <p>林小满用学姐视角耐心解答，不让新生觉得“问问题很幼稚”或“不好意思开口”。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- 产品亮点 -->
+    <section class="features section" id="features">
+      <div class="container">
+        <div class="section-head">
+          <h2>为什么找林小满？</h2>
+          <p>不是冷冰冰的机器人，而是一位愿意带你熟悉校园的学姐。</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-icon">🎓</div>
+            <h3>知心学姐</h3>
+            <p>以“学姐”身份和你聊天，耐心解答学习、生活、社团等各类新生困惑。</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">🗺️</div>
+            <h3>校园百事通</h3>
+            <p>覆盖上外新生高频问题：报到、选课、食堂、宿舍、图书馆、校园网等。</p>
+          </article>
+            <article class="feature-card">
+              <div class="feature-icon">🧠</div>
+              <h3>实时评估学生心理状态</h3>
+              <p>在交流中关注你的情绪状态，及时给予支持与疏导建议；如有需要，也会提醒你寻求学校专业心理帮助。</p>
+            </article>
+          <article class="feature-card">
+            <div class="feature-icon">💬</div>
+            <h3>随时可聊</h3>
+            <p>网页端直接对话，不用下载 App，遇到问题随时找学姐。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 认识林小满 -->
+    <section class="about section" id="about">
+      <div class="container about-inner">
+        <div class="about-photo">
+          <img src="images/linxiaoman-hero.jpg" alt="林小满学姐形象">
+          <span class="about-photo-badge">林小满 · 上外学姐</span>
+        </div>
+        <div class="about-info">
+          <div class="section-head">
+            <h2>认识林小满</h2>
+            <p>一位愿意陪新生走过适应期的学姐型智能体。</p>
+          </div>
+          <p class="about-desc">
+            林小满不只是答疑工具，更像一个温柔、靠谱、有点幽默的学姐。她了解新生的不安，也懂校园生活的各种“潜规则”，希望用简单直接的方式帮你少走弯路。
+          </p>
+          <div class="about-tags">
+            <span class="about-tag">温柔耐心</span>
+            <span class="about-tag">靠谱细心</span>
+            <span class="about-tag">幽默感</span>
+            <span class="about-tag">善于倾听</span>
+          </div>
+          <ul class="about-list">
+            <li><span>身份</span>上外学姐 / 新生引路人</li>
+            <li><span>特点</span>24小时在线陪伴</li>
+            <li><span>擅长</span>校园攻略 / 新生答疑</li>
+            <li><span>风格</span>亲切、不说教、有温度</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 林小满 · 上外新生智能体助手</p>
+      <p>由 HiAgent WebSDK 驱动</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

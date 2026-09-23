@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>奖学金与助学金 · 林小满</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html"><span class="brand-badge">林</span><span class="brand-name">林小满</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" class="nav-link" data-nav="home">首页</a>
+        <a href="campus.html" class="nav-link active" data-nav="campus">校园信息</a>
+        <a href="chat.html" class="nav-link" data-nav="chat">和学姐聊聊</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="打开菜单"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main class="detail-page">
+    <div class="container">
+      <nav class="campus-breadcrumb" aria-label="面包屑"><a href="index.html">首页</a><span>/</span><a href="campus.html">校园信息</a><span>/</span><span>奖学金与助学金</span></nav>
+      <header class="detail-header">
+        <h1>奖学金与助学金</h1>
+        <p>国家、市级、校级与社会类奖助学金概览。</p>
+      </header>
+      <section class="detail-card">
+        <h2>国家级奖助学金</h2>
+        <ul>
+          <li>国家奖学金：8000 元/年，成绩年级前列</li>
+          <li>国家励志奖学金：5000 元/年，家庭经济困难 + 成绩优秀</li>
+          <li>国家助学金：2000-4000 元/年，分等级</li>
+        </ul>
+      </section>
+      <section class="detail-card">
+        <h2>市级与校级</h2>
+        <ul>
+          <li>上海市奖学金：8000 元/年</li>
+          <li>校长奖学金：金额最高，竞争激烈</li>
+          <li>优秀学生奖学金：分档评定</li>
+          <li>单项奖学金：学术 / 文艺 / 体育 / 社会工作</li>
+          <li>校友奖学金：多种名目</li>
+        </ul>
+      </section>
+      <section class="detail-card">
+        <h2>社会类资助</h2>
+        <ul>
+          <li>上外“丝路启航”助学金</li>
+          <li>企业 / 校友 / 基金会捐赠奖学金</li>
+        </ul>
+      </section>
+      <section class="detail-card">
+        <h2>评定与申请提醒</h2>
+        <ul>
+          <li>GPA 是核心指标</li>
+          <li>参考德智体美劳综合素质测评</li>
+          <li>科研、竞赛、社会实践、志愿服务可加分</li>
+          <li>家庭经济困难认定一般每年 9 月申请</li>
+          <li>国家级 + 校级可同时拿，但国家级项目间不可叠加</li>
+        </ul>
+      </section>
+      <div class="detail-footer">
+        <a class="btn btn-ghost" href="campus.html">返回校园信息</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer"><div class="container"><p>© 2026 林小满 · 上外新生智能体助手</p><p>由 HiAgent WebSDK 驱动</p></div></footer>
+  <script src="http://hiagent.shisu.edu.cn:32300/resources/product/llm/public/sdk/embedLite.js"></script>
+  <script>
+    new HiagentWebSDK.WebLiteClient({
+      appKey: "da62u1f7109c72o6ehsg",
+      baseUrl: "http://hiagent.shisu.edu.cn:32300",
+      variables: {},
+    });
+  </script>
+  <script src="main.js"></script>
+</body>
+</html>

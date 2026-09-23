@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新生常见 Q&amp;A · 林小满</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html"><span class="brand-badge">林</span><span class="brand-name">林小满</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" class="nav-link" data-nav="home">首页</a>
+        <a href="campus.html" class="nav-link active" data-nav="campus">校园信息</a>
+        <a href="chat.html" class="nav-link" data-nav="chat">和学姐聊聊</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="打开菜单"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main class="detail-page">
+    <div class="container">
+      <nav class="campus-breadcrumb" aria-label="面包屑"><a href="index.html">首页</a><span>/</span><a href="campus.html">校园信息</a><span>/</span><span>新生常见 Q&amp;A</span></nav>
+      <header class="detail-header">
+        <h1>新生常见 Q&amp;A</h1>
+        <p>学习、生活、心理与紧急情况高频问题速查。</p>
+      </header>
+      <section class="detail-card">
+        <h2>学习类</h2>
+        <ul>
+          <li><strong>大一可以带电脑吗？</strong>可以，建议锁在宿舍柜里。</li>
+          <li><strong>要不要抢课？</strong>必修课不用抢，公选课 / MOOC 需要抢。</li>
+          <li><strong>挂科怎么办？</strong>可补考一次，补考不过需重修，会拉低 GPA。</li>
+          <li><strong>转专业难吗？</strong>政策每年不同，关注教务处通知。</li>
+        </ul>
+      </section>
+      <section class="detail-card">
+        <h2>生活类</h2>
+        <ul>
+          <li><strong>学校可以收快递吗？</strong>可以，菜鸟驿站、妈妈驿站分布在各校门。</li>
+          <li><strong>可以在宿舍做饭吗？</strong>不可以，大功率电器违规。</li>
+          <li><strong>宿舍可以装床帘吗？</strong>可以，强烈推荐。</li>
+          <li><strong>校园网怎么连？</strong>SSID：SISU，学号 + 初始密码登录。</li>
+        </ul>
+      </section>
+      <section class="detail-card">
+        <h2>心理 / 社交类</h2>
+        <ul>
+          <li><strong>找不到朋友怎么办？</strong>可以加社团、参加志愿活动、加入学习小组。</li>
+          <li><strong>想家了怎么办？</strong>很正常，几乎所有新生都会经历。</li>
+          <li><strong>心理咨询怎么预约？</strong>现场去心理咨询中心 / 学校公众号线上预约。</li>
+        </ul>
+      </section>
+      <section class="detail-card">
+        <h2>紧急情况</h2>
+        <ul>
+          <li><strong>紧急医疗：</strong>打 120 / 去松江区中心医院 / 联系辅导员。</li>
+          <li><strong>心理危机：</strong>可拨打心理危机热线 / 上海心理援助热线。</li>
+          <li><strong>校园报警：</strong>打 110 或学校保卫处电话。</li>
+          <li><strong>校园卡丢了：</strong>立即挂失，再去校园卡服务中心补办。</li>
+        </ul>
+      </section>
+      <div class="detail-footer">
+        <a class="btn btn-ghost" href="campus.html">返回校园信息</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer"><div class="container"><p>© 2026 林小满 · 上外新生智能体助手</p><p>由 HiAgent WebSDK 驱动</p></div></footer>
+  <script src="http://hiagent.shisu.edu.cn:32300/resources/product/llm/public/sdk/embedLite.js"></script>
+  <script>
+    new HiagentWebSDK.WebLiteClient({
+      appKey: "da62u1f7109c72o6ehsg",
+      baseUrl: "http://hiagent.shisu.edu.cn:32300",
+      variables: {},
+    });
+  </script>
+  <script src="main.js"></script>
+</body>
+</html>

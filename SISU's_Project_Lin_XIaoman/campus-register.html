@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>新生报到流程 · 林小满</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html"><span class="brand-badge">林</span><span class="brand-name">林小满</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" class="nav-link" data-nav="home">首页</a>
+        <a href="campus.html" class="nav-link active" data-nav="campus">校园信息</a>
+        <a href="chat.html" class="nav-link" data-nav="chat">和学姐聊聊</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="打开菜单"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main class="detail-page">
+    <div class="container">
+      <nav class="campus-breadcrumb" aria-label="面包屑"><a href="index.html">首页</a><span>/</span><a href="campus.html">校园信息</a><span>/</span><span>新生报到流程</span></nav>
+      <header class="detail-header">
+        <h1>新生报到流程</h1>
+        <p>报到时间、必带材料与到校流程。</p>
+      </header>
+      <section class="detail-card">
+        <h2>报到时间</h2>
+        <ul>
+          <li>一般在 8 月 30-31 日左右，以录取通知书为准</li>
+          <li>可提前 1-2 天到校，学校会安排迎新志愿者接待</li>
+        </ul>
+      </section>
+      <section class="detail-card">
+        <h2>核心材料五件套</h2>
+        <ul>
+          <li>身份证原件 + 多份复印件</li>
+          <li>录取通知书原件</li>
+          <li>高考准考证</li>
+          <li>户口迁移证（不迁户口可忽略）</li>
+          <li>一寸 / 二寸证件照若干（蓝底、白底备用）</li>
+        </ul>
+      </section>
+      <section class="detail-card">
+        <h2>其他材料</h2>
+        <ul>
+          <li>团员证 / 党组织关系介绍信</li>
+          <li>高考纸质档案（部分省份自带）</li>
+        </ul>
+      </section>
+      <section class="detail-card">
+        <h2>到校报到流程</h2>
+        <ul>
+          <li>到学院迎新点报到</li>
+          <li>提交证件、领取校园卡、办理入住</li>
+          <li>参加新生入学教育（一般 2-3 天）</li>
+          <li>准备军训</li>
+        </ul>
+        <p class="tip">家庭经济困难可走绿色通道 / 申请国家助学贷款；行李可提前邮寄，但贵重物品随身带。</p>
+      </section>
+      <div class="detail-footer">
+        <a class="btn btn-ghost" href="campus.html">返回校园信息</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer"><div class="container"><p>© 2026 林小满 · 上外新生智能体助手</p><p>由 HiAgent WebSDK 驱动</p></div></footer>
+  <script src="http://hiagent.shisu.edu.cn:32300/resources/product/llm/public/sdk/embedLite.js"></script>
+  <script>
+    new HiagentWebSDK.WebLiteClient({
+      appKey: "da62u1f7109c72o6ehsg",
+      baseUrl: "http://hiagent.shisu.edu.cn:32300",
+      variables: {},
+    });
+  </script>
+  <script src="main.js"></script>
+</body>
+</html>

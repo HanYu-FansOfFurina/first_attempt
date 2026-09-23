@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>校园基本信息 · 林小满</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html"><span class="brand-badge">林</span><span class="brand-name">林小满</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" class="nav-link" data-nav="home">首页</a>
+        <a href="campus.html" class="nav-link active" data-nav="campus">校园信息</a>
+        <a href="chat.html" class="nav-link" data-nav="chat">和学姐聊聊</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="打开菜单"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main class="detail-page">
+    <div class="container">
+      <nav class="campus-breadcrumb" aria-label="面包屑"><a href="index.html">首页</a><span>/</span><a href="campus.html">校园信息</a><span>/</span><span>校园基本信息</span></nav>
+      <header class="detail-header">
+        <h1>校园基本信息</h1>
+        <p>上海外国语大学核心校园信息，帮助新生快速了解学校基本情况。</p>
+      </header>
+      <section class="detail-card">
+        <h2>学校名片</h2>
+        <ul>
+          <li><strong>地址：</strong>上海市松江区文翔路1550号（松江校区）</li>
+          <li><strong>电话：</strong>021-6770 1068</li>
+          <li><strong>官网：</strong>www.shisu.edu.cn</li>
+          <li><strong>校训：</strong>格高志远 学贯中外</li>
+          <li><strong>办学理念：</strong>诠释世界 成就未来</li>
+        </ul>
+      </section>
+      <section class="detail-card">
+        <h2>两个校区</h2>
+        <ul>
+          <li><strong>松江校区：</strong>主校区，本科生为主</li>
+          <li><strong>虹口校区：</strong>研究生为主，部分语言类专业</li>
+        </ul>
+        <p class="tip">林小满的学姐视角主要基于松江校区。</p>
+      </section>
+      <div class="detail-footer">
+        <a class="btn btn-ghost" href="campus.html">返回校园信息</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer"><div class="container"><p>© 2026 林小满 · 上外新生智能体助手</p><p>由 HiAgent WebSDK 驱动</p></div></footer>
+  <script src="http://hiagent.shisu.edu.cn:32300/resources/product/llm/public/sdk/embedLite.js"></script>
+  <script>
+    new HiagentWebSDK.WebLiteClient({
+      appKey: "da62u1f7109c72o6ehsg",
+      baseUrl: "http://hiagent.shisu.edu.cn:32300",
+      variables: {},
+    });
+  </script>
+  <script src="main.js"></script>
+</body>
+</html>

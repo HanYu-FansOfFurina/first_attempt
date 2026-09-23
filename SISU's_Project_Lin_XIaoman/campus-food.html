@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>食堂测评 · 林小满</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html"><span class="brand-badge">林</span><span class="brand-name">林小满</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" class="nav-link" data-nav="home">首页</a>
+        <a href="campus.html" class="nav-link active" data-nav="campus">校园信息</a>
+        <a href="chat.html" class="nav-link" data-nav="chat">和学姐聊聊</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="打开菜单"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main class="detail-page">
+    <div class="container">
+      <nav class="campus-breadcrumb" aria-label="面包屑"><a href="index.html">首页</a><span>/</span><a href="campus.html">校园信息</a><span>/</span><span>食堂测评</span></nav>
+      <header class="detail-header">
+        <h1>食堂测评</h1>
+        <p>松江校区食堂与周边美食测评，帮你精准避开高峰和踩雷。</p>
+      </header>
+      <section class="detail-card">
+        <h2>1A 食堂 · 性价比之王</h2>
+        <ul>
+          <li>位置：教学区核心位置，距离多数教学楼最近</li>
+          <li>早餐必吃：2 元豆浆 + 粢饭团、小笼包</li>
+          <li>午餐自选打饭：菜品约 8-15 元</li>
+          <li>高峰时段：12:00-12:40 排队最长，建议错峰</li>
+        </ul>
+      </section>
+      <section class="detail-card">
+        <h2>1B 食堂 · 二层小灶</h2>
+        <ul>
+          <li>1、2 楼为普通打菜食堂</li>
+          <li>3 楼中西餐厅：咖喱鸡块饭分量足，可颂配咖啡套餐性价比高</li>
+        </ul>
+      </section>
+      <section class="detail-card">
+        <h2>3B 食堂 · 智慧食堂</h2>
+        <ul>
+          <li>智慧餐盘自动结账，无需人工</li>
+          <li>多国美食窗口：西餐、日料、韩式、轻食</li>
+          <li>设有学习社交空间，可以边吃边讨论作业</li>
+        </ul>
+      </section>
+      <section class="detail-card">
+        <h2>西门食堂 &amp; 文汇路美食街</h2>
+        <ul>
+          <li>西门食堂外摊位多，出西门步行约 3 分钟</li>
+          <li>文汇路美食街被学生称为“脱离沪币系统的美食天堂”</li>
+        </ul>
+        <p class="tip">食堂阿姨手抖指数参考：1A &gt; 1B &gt; 3B。供餐时间参考：早餐 7:00-9:00，午餐 11:00-13:00，晚餐 16:30-19:00。</p>
+      </section>
+      <div class="detail-footer">
+        <a class="btn btn-ghost" href="campus.html">返回校园信息</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer"><div class="container"><p>© 2026 林小满 · 上外新生智能体助手</p><p>由 HiAgent WebSDK 驱动</p></div></footer>
+  <script src="http://hiagent.shisu.edu.cn:32300/resources/product/llm/public/sdk/embedLite.js"></script>
+  <script>
+    new HiagentWebSDK.WebLiteClient({
+      appKey: "da62u1f7109c72o6ehsg",
+      baseUrl: "http://hiagent.shisu.edu.cn:32300",
+      variables: {},
+    });
+  </script>
+  <script src="main.js"></script>
+</body>
+</html>

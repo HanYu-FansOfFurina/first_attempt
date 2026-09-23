@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>校园信息 · 林小满</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 顶部菜单栏 -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-badge">林</span>
+        <span class="brand-name">林小满</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" class="nav-link" data-nav="home">首页</a>
+        <a href="campus.html" class="nav-link active" data-nav="campus">校园信息</a>
+        <a href="chat.html" class="nav-link" data-nav="chat">和学姐聊聊</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="打开菜单">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="campus-page">
+    <div class="container campus-layout">
+      <!-- 侧边栏：可跳转到下方各板块 -->
+      <aside class="campus-sidebar" aria-label="校园信息导航">
+        <p class="campus-nav-title">校园信息</p>
+        <nav class="campus-nav">
+          <a href="campus-basic.html" class="campus-nav-link">校园基本信息</a>
+          <a href="campus-map.html" class="campus-nav-link">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M9 20l-5.447-2.724A1 1 0 0 1 3 16.382V5.618a1 1 0 0 1 1.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0 0 21 18.382V7.618a1 1 0 0 0-.553-.894L15 4m0 13V4m0 0L9 7"/>
+            </svg>
+            校园地图
+          </a>
+          <a href="campus-food.html" class="campus-nav-link">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>
+            </svg>
+            食堂测评
+          </a>
+          <a href="campus-transport.html" class="campus-nav-link">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M3 11h18M5 11V7a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v4M7 15h.01M17 15h.01"/>
+              <path d="M5 11l1 6h12l1-6"/>
+              <circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/>
+            </svg>
+            松江大学城出行攻略
+          </a>
+          <a href="campus-dorm.html" class="campus-nav-link">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M3 21h18M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16M9 7h6M9 11h6M9 15h6"/>
+            </svg>
+            宿舍生存指南
+          </a>
+            
+            
+            
+            
+            <a href="campus-course.html" class="campus-nav-link">选课指南</a>
+            <a href="campus-library.html" class="campus-nav-link">图书馆</a>
+            <a href="campus-card.html" class="campus-nav-link">校园卡 &amp; 校园网</a>
+            <a href="campus-psy.html" class="campus-nav-link">心理咨询中心</a>
+            <a href="campus-wenhui.html" class="campus-nav-link">文汇路商业街</a>
+            <a href="campus-register.html" class="campus-nav-link">新生报到流程</a>
+            <a href="campus-training.html" class="campus-nav-link">军训</a>
+            <a href="campus-scholar.html" class="campus-nav-link">奖学金与助学金</a>
+            <a href="campus-qa.html" class="campus-nav-link">新生常见 Q&amp;A</a>
+        </nav>
+        
+      </aside>
+
+      <!-- 主内容：校园信息全模块 -->
+      <article class="campus-content">
+        <header class="campus-header">
+          <nav class="campus-breadcrumb" aria-label="面包屑">
+            <a href="index.html">首页</a>
+            <span>/</span>
+            <span>校园信息</span>
+          </nav>
+          <h1>校园信息</h1>
+          <p>点击下方任意板块卡片，或使用左侧侧边栏，即可打开对应的独立详情页面。</p>
+        </header>
+        <section id="campus-basic" class="campus-card">
+          <a class="campus-card-stretched" href="campus-basic.html" aria-label="打开校园基本信息"></a>
+          <div class="campus-card-icon"></div>
+          <div class="campus-card-body">
+            <h2>校园基本信息</h2>
+			<p>上海外国语大学核心校园信息，帮助新生快速了解学校基本情况。</p>
+            <ul>
+              <li><strong>地址：</strong>上海市松江区文翔路1550号（松江校区）</li>
+              <li><strong>电话：</strong>021-6770 1068</li>
+              <li><strong>官网：</strong>www.shisu.edu.cn</li>
+              <li><strong>校训：</strong>格高志远 学贯中外</li>
+              <li><strong>办学理念：</strong>诠释世界 成就未来</li>
+              <li><strong>校区：</strong>松江校区（主校区，本科生为主）+ 虹口校区（研究生为主，部分语言类）</li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="campus-map" class="campus-card">
+          <a class="campus-card-stretched" href="campus-map.html" aria-label="打开校园地图"></a>
+          <div class="campus-card-icon">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M9 20l-5.447-2.724A1 1 0 0 1 3 16.382V5.618a1 1 0 0 1 1.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0 0 21 18.382V7.618a1 1 0 0 0-.553-.894L15 4m0 13V4m0 0L9 7"/>
+            </svg>
+          </div>
+          <div class="campus-card-body">
+            <h2>校园地图</h2>
+            <p>上外校园主要楼宇、图书馆、食堂、宿舍区等位置导航，帮助新生快速认路。已根据学校官网地图信息整理。</p><a href="campus-map.html" class="campus-link">查看完整校园地图 →</a>
+            <a href="#" class="campus-placeholder" aria-disabled="true">入口预留 · 即将上线</a>
+          </div>
+        </section>
+
+        <section id="campus-food" class="campus-card">
+          <a class="campus-card-stretched" href="campus-food.html" aria-label="打开食堂测评"></a>
+          <div class="campus-card-icon">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>
+            </svg>
+          </div>
+          <div class="campus-card-body">
+            <h2>食堂测评</h2>
+            <p>各食堂口味、价格、高峰期人流量测评，帮新生避开排队踩雷。</p>
+                <div class="campus-detail">
+                  <h3>1A 食堂 · 性价比之王</h3>
+                  <ul>
+                    <li>位置：教学区核心位置，距离多数教学楼最近</li>
+                    <li>早餐推荐：2 元豆浆 + 粢饭团、小笼包</li>
+                    <li>午餐自选打饭：菜品约 8-15 元</li>
+                    <li>高峰时段：12:00-12:40 排队最长，建议错峰</li>
+                  </ul>
+                  <h3>1B 食堂 · 二层小灶</h3>
+                  <ul>
+                    <li>1、2 楼为普通打菜食堂</li>
+                    <li>3 楼中西餐厅：咖喱鸡块饭、可颂配咖啡套餐性价比较高</li>
+                  </ul>
+                  <h3>3B 食堂 · 智慧食堂</h3>
+                  <ul>
+                    <li>智慧餐盘自动结账，无需人工</li>
+                    <li>多国美食窗口：西餐、日料、韩式、轻食</li>
+                    <li>设有学习社交空间，可以边吃边讨论作业</li>
+                  </ul>
+                  <h3>西门 & 文汇路</h3>
+                  <ul>
+                    <li>西门食堂外摊位多，出西门步行约 3 分钟</li>
+                    <li>文汇路美食街被学生称为“脱离沪币系统的美食天堂”</li>
+                  </ul>
+                  <p class="campus-note">食堂阿姨手抖指数：1A &gt; 1B &gt; 3B。供餐时间参考：早餐 7:00-9:00，午餐 11:00-13:00，晚餐 16:30-19:00。</p>
+                </div>
+            <a href="#" class="campus-placeholder" aria-disabled="true">入口预留 · 即将上线</a>
+          </div>
+        </section>
+
+        <section id="campus-transport" class="campus-card">
+          <a class="campus-card-stretched" href="campus-transport.html" aria-label="打开松江大学城出行攻略"></a>
+          <div class="campus-card-icon">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M3 11h18M5 11V7a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v4M7 15h.01M17 15h.01"/>
+              <path d="M5 11l1 6h12l1-6"/>
+              <circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/>
+            </svg>
+          </div>
+          <div class="campus-card-body">
+            <h2>松江大学城出行攻略</h2>
+            <p>地铁、公交、打车、共享单车等出行方式整理，覆盖松江大学城与上外校区。已根据学校官网交通信息整理。</p><a href="campus-transport.html" class="campus-link">查看完整出行攻略 →</a>
+            <a href="#" class="campus-placeholder" aria-disabled="true">入口预留 · 即将上线</a>
+          </div>
+        </section>
+
+        <section id="campus-dorm" class="campus-card">
+          <a class="campus-card-stretched" href="campus-dorm.html" aria-label="打开宿舍生存指南"></a>
+          <div class="campus-card-icon">
+            <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M3 21h18M5 21V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16M9 7h6M9 11h6M9 15h6"/>
+            </svg>
+          </div>
+          <div class="campus-card-body">
+            <h2>宿舍生存指南</h2>
+            <p>宿舍设施、报修、门禁、收纳与生活小技巧，让新生更快适应集体生活。</p>
+                <div class="campus-detail">
+                  <h3>房型与设施</h3>
+                  <ul>
+                    <li>松江校区以标准 4 人间为主，部分 3 人间</li>
+                    <li>上床下桌设计，床铺约 1.9m × 0.9m 或 1.9m × 1.2m</li>
+                    <li>配备空调、电扇、饮水机、独立衣柜、书桌、储物柜；部分新建公寓有电梯和独立卫浴</li>
+                  </ul>
+                  <h3>楼栋与门禁</h3>
+                  <ul>
+                    <li>本科生公寓楼号：23、26、29 以及 33-42 栋</li>
+                    <li>37、41、42 为男生宿舍楼，其余多为女生楼</li>
+                    <li>门禁一般 23:00-23:30；不强制熄灯，空调不断电</li>
+                  </ul>
+                  <h3>宿舍神器清单</h3>
+                  <ul>
+                    <li>床帘、床头挂篮、床上书桌</li>
+                    <li>除湿袋、USB 小风扇、加湿器</li>
+                    <li>鞋架、衣柜分层隔板、真空压缩袋</li>
+                    <li>插线板、充电式台灯、桌面收纳</li>
+                  </ul>
+                  <h3>报修与相处建议</h3>
+                  <ul>
+                    <li>报修：扫码公众号/小程序/找楼管阿姨</li>
+                    <li>室友之间建议约法三章，公共区域轮流打扫</li>
+                  </ul>
+                </div>
+            <a href="#" class="campus-placeholder" aria-disabled="true">入口预留 · 即将上线</a>
+          </div>
+        </section>
+
+        <section id="campus-course" class="campus-card">
+          <a class="campus-card-stretched" href="campus-course.html" aria-label="打开选课指南"></a>
+          <div class="campus-card-icon"></div>
+          <div class="campus-card-body">
+            <h2>选课指南</h2>
+            <div class="campus-detail">
+              <h3>选课系统</h3>
+              <ul>
+                <li>新教务系统：newoaa.shisu.edu.cn</li>
+                <li>本科生、研究生选课系统分别入口；体育选课系统（内网）单独</li>
+                <li>分预选、正选、补退选三个阶段，关注教务处公众号公告</li>
+              </ul>
+              <h3>课程类型与学分</h3>
+              <ul>
+                <li>必修课：学院统一安排，不能自由选</li>
+                <li>公选课 / 通识课：自由选，可跨专业</li>
+                <li>MOOC 课程：课程名前带 MOOC 前缀，作为全校通识选修课</li>
+                <li>采用 GPA；五级制绩点参考：优 4.5、良 3.5、中 2.5、及格 1.5、不及格 0</li>
+              </ul>
+              <h3>大一建议</h3>
+              <ul>
+                <li>必修：思政 / 英语 / 数学 / 专业课基础</li>
+                <li>建议选 1 门公选课丰富通识，体育课选感兴趣的项目</li>
+                <li>不要贪多，挂科代价远大于少选一课</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="campus-library" class="campus-card">
+          <a class="campus-card-stretched" href="campus-library.html" aria-label="打开图书馆"></a>
+          <div class="campus-card-icon"></div>
+          <div class="campus-card-body">
+            <h2>图书馆</h2>
+            <div class="campus-detail">
+              <ul>
+                <li><strong>位置：</strong>图文信息中心楼内</li>
+                <li><strong>楼层：</strong>1 楼总服务台/报刊阅览室，3 楼中文图书借阅处；设有学习共享空间和考研专属自习区</li>
+                <li><strong>开放时间：</strong>周一至周日 8:00-21:30，部分楼层至 22:00</li>
+                <li><strong>借阅：</strong>本科生默认 10 册，借期 30 天，可线上续借 1 次</li>
+                <li><strong>逾期：</strong>0.5 元/天/册</li>
+                <li><strong>电子资源：</strong>知网、Springer、JSTOR 等可远程访问，可从 lib.shisu.edu.cn 进入数据库导航</li>
+              </ul>
+              <p class="campus-note">考研季座位紧张，建议早到；期末周开放安排以图书馆通知为准。</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="campus-card" class="campus-card">
+          <a class="campus-card-stretched" href="campus-card.html" aria-label="打开校园卡与校园网"></a>
+          <div class="campus-card-icon"></div>
+          <div class="campus-card-body">
+            <h2>校园卡 &amp; 校园网</h2>
+            <div class="campus-detail">
+              <h3>校园卡</h3>
+              <ul>
+                <li>用途：食堂消费、校门出入、图书馆/宿舍门禁、校医院就医、缴费等</li>
+                <li>充值：食堂/宿舍充值机、微信/支付宝绑定、校园卡服务中心</li>
+                <li>挂失/补办：圈存机或校园卡公众号挂失，服务中心补办费约 20 元</li>
+              </ul>
+              <h3>校园网</h3>
+              <ul>
+                <li>SSID：SISU 或 SHISU</li>
+                <li>连接：学号 + 密码（初始密码通常为身份证后 6 位）</li>
+                <li>宿舍区网速较快，教学区公共 WiFi 较慢</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="campus-psy" class="campus-card">
+          <a class="campus-card-stretched" href="campus-psy.html" aria-label="打开心理咨询中心"></a>
+          <div class="campus-card-icon"></div>
+          <div class="campus-card-body">
+            <h2>心理咨询中心</h2>
+            <div class="campus-detail">
+              <ul>
+                <li><strong>位置：</strong>松江校区学生公寓区附近；虹口校区研究生公寓附近</li>
+                <li><strong>服务时间：</strong>周一至周五 8:30-17:00，部分时间提供晚间/周六预约</li>
+                <li><strong>预约：</strong>现场前台、学校心理公众号/小程序、电话预约</li>
+                <li><strong>服务：</strong>个体咨询、团体辅导、新生心理健康普查、危机干预</li>
+                <li><strong>保密说明：</strong>咨询内容保密，除非有自伤/伤人风险</li>
+              </ul>
+              <p class="campus-note">心理危机热线可参考 400-161-9995，上海心理援助热线 021-12320-5；紧急情况也可联系辅导员。</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="campus-wenhui" class="campus-card">
+          <a class="campus-card-stretched" href="campus-wenhui.html" aria-label="打开文汇路商业街"></a>
+          <div class="campus-card-icon"></div>
+          <div class="campus-card-body">
+            <h2>文汇路商业街</h2>
+            <div class="campus-detail">
+              <ul>
+                <li><strong>位置：</strong>出学校东门步行约 5 分钟，全长约 2.5 公里</li>
+                <li><strong>特色：</strong>串联上外、东华等 7 所高校，被称为“脱离沪币系统的美食天堂”</li>
+                <li><strong>吃喝：</strong>奶茶、韩餐、川菜、湘菜、面馆、麻辣烫、小吃等</li>
+                <li><strong>生活：</strong>打印店、文具店、超市、菜鸟驿站/妈妈驿站、理发店、药店等</li>
+                <li><strong>休闲：</strong>咖啡馆、电影院/电玩/桌游店、健身房等</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="campus-register" class="campus-card">
+          <a class="campus-card-stretched" href="campus-register.html" aria-label="打开新生报到流程"></a>
+          <div class="campus-card-icon"></div>
+          <div class="campus-card-body">
+            <h2>新生报到流程</h2>
+            <div class="campus-detail">
+              <h3>报到时间</h3>
+              <ul>
+                <li>一般在 8 月 30-31 日左右，以录取通知书为准</li>
+                <li>可提前 1-2 天到校，学校会安排迎新志愿者</li>
+              </ul>
+              <h3>核心材料</h3>
+              <ul>
+                <li>身份证原件 + 复印件</li>
+                <li>录取通知书原件</li>
+                <li>高考准考证、团员证/党组织关系介绍信</li>
+                <li>户口迁移证（不迁户口可忽略）</li>
+                <li>一寸/二寸证件照若干、高考纸质档案（部分省份自带）</li>
+              </ul>
+              <h3>到校后</h3>
+              <ul>
+                <li>到学院迎新点报到，提交证件、领取校园卡、办理入住</li>
+                <li>参加新生入学教育（一般 2-3 天）</li>
+                <li>家庭经济困难可走绿色通道 / 申请国家助学贷款</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="campus-training" class="campus-card">
+          <a class="campus-card-stretched" href="campus-training.html" aria-label="打开军训"></a>
+          <div class="campus-card-icon"></div>
+          <div class="campus-card-body">
+            <h2>军训</h2>
+            <div class="campus-detail">
+              <ul>
+                <li><strong>时间：</strong>入学后 1-2 周开始，一般持续 2-3 周，计入学分</li>
+                <li><strong>内容：</strong>队列训练、内务整理、国防教育讲座，部分含射击/急救培训</li>
+                <li><strong>装备：</strong>防晒霜（SPF50+）、1L 以上水杯、深色袜子、吸汗鞋垫、创可贴、藿香正气水等</li>
+                <li><strong>注意：</strong>身体不适立即报告，不要硬撑；手机一般统一保管</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="campus-scholar" class="campus-card">
+          <a class="campus-card-stretched" href="campus-scholar.html" aria-label="打开奖学金与助学金"></a>
+          <div class="campus-card-icon"></div>
+          <div class="campus-card-body">
+            <h2>奖学金与助学金</h2>
+            <div class="campus-detail">
+              <h3>主要奖助项目</h3>
+              <ul>
+                <li>国家奖学金 8000 元/年、国家励志奖学金 5000 元/年、国家助学金 2000-4000 元/年</li>
+                <li>上海市奖学金 8000 元/年</li>
+                <li>校长奖学金、优秀学生奖学金、单项奖学金、校友奖学金</li>
+                <li>社会类助学金：上外“丝路启航”助学金等</li>
+              </ul>
+              <h3>评定提醒</h3>
+              <ul>
+                <li>GPA 是核心指标，同时参考德智体美劳综合素质测评</li>
+                <li>家庭经济困难认定一般每年 9 月申请</li>
+                <li>国家级 + 校级通常可同时拿，但国家级项目间一般不可叠加</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="campus-qa" class="campus-card">
+          <a class="campus-card-stretched" href="campus-qa.html" aria-label="打开新生常见问答"></a>
+          <div class="campus-card-icon"></div>
+          <div class="campus-card-body">
+            <h2>新生常见 Q&amp;A</h2>
+            <div class="campus-detail">
+              <h3>学习类</h3>
+              <ul>
+                <li>大一可以带电脑：可以，建议锁在宿舍柜里</li>
+                <li>要不要抢课：必修不用抢，公选课/MOOC 需要抢</li>
+                <li>挂科怎么办：可补考一次，补考不过需重修，会影响 GPA</li>
+                <li>转专业：政策每年不同，关注教务处通知</li>
+              </ul>
+              <h3>生活类</h3>
+              <ul>
+                <li>快递：可以，菜鸟驿站、妈妈驿站分布在各校门</li>
+                <li>宿舍做饭：不可以，大功率电器违规</li>
+                <li>床帘：可以装，且强烈推荐</li>
+                <li>校园网：SSID 为 SISU，学号 + 初始密码登录</li>
+              </ul>
+              <h3>心理 / 社交类</h3>
+              <ul>
+                <li>找不到朋友：可以加社团、参加志愿活动、加入学习小组</li>
+                <li>想家：很正常，几乎所有新生都会经历</li>
+                <li>心理咨询：现场或学校公众号线上预约</li>
+              </ul>
+              <h3>紧急情况</h3>
+              <ul>
+                <li>紧急医疗：打 120 / 去松江区中心医院 / 联系辅导员</li>
+                <li>心理危机：可拨打心理危机热线 / 上海心理援助热线</li>
+                <li>校园报警：打 110 或学校保卫处电话</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 林小满 · 上外新生智能体助手</p>
+      <p>由 HiAgent WebSDK 驱动</p>
+    </div>
+  </footer>
+
+  <!-- 校园信息页聊天气泡 -->
+  <script src="http://hiagent.shisu.edu.cn:32300/resources/product/llm/public/sdk/embedLite.js"></script>
+  <script>
+    new HiagentWebSDK.WebLiteClient({
+      appKey: "da62u1f7109c72o6ehsg",
+      baseUrl: "http://hiagent.shisu.edu.cn:32300",
+      // 智能体对话变量配置
+      variables: {},
+    });
+  </script>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>校园卡 &amp; 校园网 · 林小满</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html"><span class="brand-badge">林</span><span class="brand-name">林小满</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" class="nav-link" data-nav="home">首页</a>
+        <a href="campus.html" class="nav-link active" data-nav="campus">校园信息</a>
+        <a href="chat.html" class="nav-link" data-nav="chat">和学姐聊聊</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="打开菜单"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main class="detail-page">
+    <div class="container">
+      <nav class="campus-breadcrumb" aria-label="面包屑"><a href="index.html">首页</a><span>/</span><a href="campus.html">校园信息</a><span>/</span><span>校园卡 &amp; 校园网</span></nav>
+      <header class="detail-header">
+        <h1>校园卡 &amp; 校园网</h1>
+        <p>校园卡使用与补办、校园网连接方式。</p>
+      </header>
+      <section class="detail-card">
+        <h2>校园卡</h2>
+        <ul>
+          <li>用途：食堂消费、校门出入、图书馆/宿舍门禁、校医院就医、缴费</li>
+          <li>充值：食堂/宿舍充值机、微信/支付宝绑定、校园卡服务中心</li>
+          <li>挂失：圈存机或校园卡公众号</li>
+          <li>补办：校园卡服务中心，补办费约 20 元</li>
+        </ul>
+      </section>
+      <section class="detail-card">
+        <h2>校园网</h2>
+        <ul>
+          <li>SSID：SISU 或 SHISU</li>
+          <li>连接方式：学号 + 密码（初始密码通常为身份证后 6 位）</li>
+          <li>宿舍区网速较快，教学区公共 WiFi 较慢</li>
+          <li>部分教室支持有线网口</li>
+        </ul>
+      </section>
+      <section class="detail-card">
+        <h2>电子资源访问</h2>
+        <ul>
+          <li>知网等数据库：从 lib.shisu.edu.cn 进入数据库导航</li>
+          <li>部分数据库需通过学校 VPN 访问</li>
+        </ul>
+        <p class="tip">校园卡和身份证建议分开放，校园卡丢失补办快，身份证补办麻烦。</p>
+      </section>
+      <div class="detail-footer">
+        <a class="btn btn-ghost" href="campus.html">返回校园信息</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer"><div class="container"><p>© 2026 林小满 · 上外新生智能体助手</p><p>由 HiAgent WebSDK 驱动</p></div></footer>
+  <script src="http://hiagent.shisu.edu.cn:32300/resources/product/llm/public/sdk/embedLite.js"></script>
+  <script>
+    new HiagentWebSDK.WebLiteClient({
+      appKey: "da62u1f7109c72o6ehsg",
+      baseUrl: "http://hiagent.shisu.edu.cn:32300",
+      variables: {},
+    });
+  </script>
+  <script src="main.js"></script>
+</body>
+</html>

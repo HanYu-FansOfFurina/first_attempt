@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>文汇路商业街 · 林小满</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html"><span class="brand-badge">林</span><span class="brand-name">林小满</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" class="nav-link" data-nav="home">首页</a>
+        <a href="campus.html" class="nav-link active" data-nav="campus">校园信息</a>
+        <a href="chat.html" class="nav-link" data-nav="chat">和学姐聊聊</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="打开菜单"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main class="detail-page">
+    <div class="container">
+      <nav class="campus-breadcrumb" aria-label="面包屑"><a href="index.html">首页</a><span>/</span><a href="campus.html">校园信息</a><span>/</span><span>文汇路商业街</span></nav>
+      <header class="detail-header">
+        <h1>文汇路商业街</h1>
+        <p>上外学生“第二食堂 + 生活广场”指南。</p>
+      </header>
+      <section class="detail-card">
+        <h2>总览</h2>
+        <ul>
+          <li>位置：出学校东门步行约 5 分钟</li>
+          <li>全长：约 2.5 公里，串联上外、东华等 7 所高校</li>
+          <li>特色：被称为“脱离沪币系统的美食天堂”，物价亲民</li>
+        </ul>
+      </section>
+      <section class="detail-card">
+        <h2>吃喝</h2>
+        <ul>
+          <li>奶茶：瑞幸、CoCo、一点点、喜茶、蜜雪冰城等</li>
+          <li>正餐：韩餐、川菜、湘菜、面馆、麻辣烫</li>
+          <li>小吃：煎饼果子、鸡蛋灌饼、肉夹馍、烤冷面</li>
+          <li>咖啡馆：适合自习和小组讨论</li>
+        </ul>
+      </section>
+      <section class="detail-card">
+        <h2>生活服务</h2>
+        <ul>
+          <li>打印店、文具店、超市</li>
+          <li>快递点：菜鸟驿站、妈妈驿站</li>
+          <li>理发店、手机维修、配眼镜、药店</li>
+        </ul>
+      </section>
+      <section class="detail-card">
+        <h2>休闲娱乐</h2>
+        <ul>
+          <li>电影院 / 电玩 / 桌游店</li>
+          <li>健身房、按摩 / 足疗店</li>
+        </ul>
+      </section>
+      <div class="detail-footer">
+        <a class="btn btn-ghost" href="campus.html">返回校园信息</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer"><div class="container"><p>© 2026 林小满 · 上外新生智能体助手</p><p>由 HiAgent WebSDK 驱动</p></div></footer>
+  <script src="http://hiagent.shisu.edu.cn:32300/resources/product/llm/public/sdk/embedLite.js"></script>
+  <script>
+    new HiagentWebSDK.WebLiteClient({
+      appKey: "da62u1f7109c72o6ehsg",
+      baseUrl: "http://hiagent.shisu.edu.cn:32300",
+      variables: {},
+    });
+  </script>
+  <script src="main.js"></script>
+</body>
+</html>

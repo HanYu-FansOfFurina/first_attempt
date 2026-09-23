@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>宿舍生存指南 · 林小满</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html"><span class="brand-badge">林</span><span class="brand-name">林小满</span></a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" class="nav-link" data-nav="home">首页</a>
+        <a href="campus.html" class="nav-link active" data-nav="campus">校园信息</a>
+        <a href="chat.html" class="nav-link" data-nav="chat">和学姐聊聊</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="打开菜单"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main class="detail-page">
+    <div class="container">
+      <nav class="campus-breadcrumb" aria-label="面包屑"><a href="index.html">首页</a><span>/</span><a href="campus.html">校园信息</a><span>/</span><span>宿舍生存指南</span></nav>
+      <header class="detail-header">
+        <h1>宿舍生存指南</h1>
+        <p>松江校区宿舍房型、楼栋、门禁、报修与宿舍神器清单。</p>
+      </header>
+      <section class="detail-card">
+        <h2>房型与设施</h2>
+        <ul>
+          <li>松江校区以标准 4 人间为主，部分 3 人间</li>
+          <li>每个宿舍带阳台，上床下桌设计</li>
+          <li>床铺尺寸约 1.9m × 0.9m 或 1.9m × 1.2m</li>
+          <li>配备空调、电扇、饮水机、独立衣柜、书桌、储物柜</li>
+          <li>部分新建公寓楼配备电梯、独立卫浴</li>
+        </ul>
+      </section>
+      <section class="detail-card">
+        <h2>楼栋分布与门禁</h2>
+        <ul>
+          <li>本科生公寓楼号：23、26、29 以及 33-42 栋</li>
+          <li>37、41、42 为男生宿舍楼，其余多为女生楼</li>
+          <li>教学区学生公寓 + 二期学生公寓两个区域</li>
+          <li>门禁时间一般 23:00-23:30，不强制熄灯，空调不断电</li>
+        </ul>
+      </section>
+      <section class="detail-card">
+        <h2>宿舍神器清单</h2>
+        <ul>
+          <li>床帘、床头挂篮、床上书桌</li>
+          <li>除湿袋、USB 小风扇、加湿器</li>
+          <li>鞋架、衣柜分层隔板、真空压缩袋</li>
+          <li>插线板、充电式台灯、桌面收纳、全身镜</li>
+        </ul>
+      </section>
+      <section class="detail-card">
+        <h2>报修与室友相处</h2>
+        <ul>
+          <li>报修：扫码公众号/小程序/找楼管阿姨</li>
+          <li>室友相处：约法三章，公共区域轮流打扫</li>
+          <li>贵重物品锁起来，借钱借物及时说清楚</li>
+        </ul>
+      </section>
+      <div class="detail-footer">
+        <a class="btn btn-ghost" href="campus.html">返回校园信息</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer"><div class="container"><p>© 2026 林小满 · 上外新生智能体助手</p><p>由 HiAgent WebSDK 驱动</p></div></footer>
+  <script src="http://hiagent.shisu.edu.cn:32300/resources/product/llm/public/sdk/embedLite.js"></script>
+  <script>
+    new HiagentWebSDK.WebLiteClient({
+      appKey: "da62u1f7109c72o6ehsg",
+      baseUrl: "http://hiagent.shisu.edu.cn:32300",
+      variables: {},
+    });
+  </script>
+  <script src="main.js"></script>
+</body>
+</html>

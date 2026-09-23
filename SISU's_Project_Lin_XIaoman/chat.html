@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>和林小满聊聊 · 上外新生向导</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* 对话独立页：让聊天区域撑满剩余视口 */
+    html,
+    body {
+      height: 100%;
+    }
+
+    .chat-page {
+      min-height: calc(100vh - 68px);
+      display: flex;
+      flex-direction: column;
+      background: #f7f9fc;
+      padding: 32px 0;
+    }
+
+    .chat-page .section-head {
+      margin-bottom: 24px;
+    }
+
+    .chat-sdk-frame-wrap {
+      flex: 1;
+      min-height: 600px;
+      max-width: 1100px;
+      width: 100%;
+      margin: 0 auto;
+      border-radius: 24px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      background: #f7f9fc;
+    }
+
+    .chat-sdk-frame {
+      display: block;
+      width: 100%;
+      height: 100%;
+      min-height: 600px;
+      border: 0;
+    }
+
+    @media (max-width: 600px) {
+      .chat-page {
+        padding: 20px 0;
+      }
+
+      .chat-sdk-frame-wrap,
+      .chat-sdk-frame {
+        min-height: calc(100vh - 180px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- 顶部菜单栏 -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-badge">林</span>
+        <span class="brand-name">林小满</span>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="index.html" class="nav-link" data-nav="home">首页</a>
+        <a href="campus.html" class="nav-link" data-nav="campus">校园信息</a>
+        <a href="chat.html" class="nav-link active" data-nav="chat">和学姐聊聊</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="打开菜单">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="chat-page">
+    <div class="container">
+      <div class="section-head">
+        <h2>和林小满聊聊</h2>
+        <p>输入你的问题，学姐马上来帮你～</p>
+      </div>
+    </div>
+    <div class="chat-sdk-frame-wrap">
+      <!-- chat-sdk.html 只负责加载 HiAgent WebSDK，避免 SDK 覆盖页面菜单 -->
+      <iframe src="chat-sdk.html"
+              class="chat-sdk-frame"
+              title="林小满智能体对话"></iframe>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 林小满 · 上外新生智能体助手</p>
+      <p>由 HiAgent WebSDK 驱动</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
